@@ -1,0 +1,28 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "personal version of my 2022 portfolio.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natiaLollie/personal-portfolio-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natiaLollie/personal-portfolio-2022/issues"
+  },
+  "homepage": "https://github.com/natiaLollie/personal-portfolio-2022#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
