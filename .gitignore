@@ -10,6 +10,5 @@ MacPaint/
 .vscode/
 /resources/assets/fonts/
 /resources/assets/mac ref imgs/Fonts/
-/dist
 /node_modules
 gulpfile.js
