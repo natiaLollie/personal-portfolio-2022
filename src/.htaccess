@@ -1,1 +1,19 @@
+# Display error page 
+
 ErrorDocument 404 /404.html
+
+# URL rewrite | mod_rewrite starts here
+
+RewriteEngine on 
+
+# Does not apply to existing directories 
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory with .html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Show the page that has the .html extension
+
+RewriteRule ^(.*)$ $1.html [NC,L]
