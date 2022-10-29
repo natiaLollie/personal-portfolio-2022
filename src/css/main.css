@@ -480,6 +480,7 @@ nav {
 
 .projects-wrapper {
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .pseudo-browser-toolbar {
@@ -594,6 +595,7 @@ nav {
 #project-filter-skillset ul,
 .project-card-about ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #project-filter-skillset li {
@@ -694,6 +696,16 @@ nav {
 
 .project-card-about {
     margin: 20px auto 30px auto;
+}
+
+.archive-tag {
+    color: var(--mainTextColor) !important;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.archive-tag:hover {
+    color: red !important;
 }
 
 /* CONTACT FORM */
@@ -848,7 +860,7 @@ textarea {
 
 .volunteer-card {
     width: 150px;
-    height: 100px;
+    height: auto;
     padding: 1.2rem;
     margin: auto 2px;
 }

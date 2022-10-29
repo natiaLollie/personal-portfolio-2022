@@ -7,8 +7,14 @@ class Volunteer extends HTMLElement {
                     src="_imgs/thumbnails/volunteer/women-who-code1.png" alt="Women Who Code"></a>
             </div>
             <div class="volunteer-card">
-                <!-- <a target="_blank" href="https://seattlegivecamp.org/"><img class="card-image"
-                    src="_imgs/thumbnails/volunteer/seattle-give-camp1.png" alt="Seattle Give Camp"></a> -->
+                <figure>
+                <a target="_blank" href="https://sic.edc.org/"> <img class="card-image" 
+                    src="_imgs/thumbnails/volunteer/samsung-ai-ml.svg" alt="Samsung Innovation Campus"> </a>
+                <figcaption style="font-style: italic;font-size: 12px;text-align:center!important;">Innovation Campus</figcaption>
+                </figure>
+            
+                    <!-- <a target="_blank" href="https://seattlegivecamp.org/"> <img class="card-image" 
+                src="_imgs/thumbnails/volunteer/seattle-give-camp1.png" alt="Seattle Give Camp"> </a> -->
             </div>
         </div>
         `
