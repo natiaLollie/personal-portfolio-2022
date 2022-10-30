@@ -625,6 +625,20 @@ nav {
     width: 310px;
 }
 
+.project-card .thumbnail {
+    display: block;
+    width: 100%;
+    /* height: 170px; */
+    object-fit: cover;
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
+}
+
+.project-card .thumbnail:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
 .project-card-about h3 {
     color: var(--containerTextColor);
 }
