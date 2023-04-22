@@ -47,7 +47,7 @@ function filterByDropDown() {
 
         // console.log(dropSelected);
 
-        filterByTab(dropSelected); //fun
+        filterByTab(dropSelected); //artificial intelligence
 
     }
 }
@@ -74,7 +74,9 @@ function filterByTab(dropSelected) {
     projectCard.forEach(div => {
         div.style.display = 'none';
         // console.log(div.getAttribute('data-filter'));
-        if (div.getAttribute('data-filter') == dropSelected.toLowerCase() || dropSelected == "all") {
+        if (div.getAttribute('data-filter') === "archive" && dropSelected === "all") {
+            div.style.display = "none";
+        } else if (div.getAttribute('data-filter') === dropSelected.toLowerCase() || dropSelected === "all"){
             div.style.display = "block";
         }
     })
