@@ -15,7 +15,7 @@
 const dropMenuList = document.getElementById('project-dropdown');
 let projectCard = document.querySelectorAll('.project-card > div');
 let tabMenuList = document.querySelectorAll('#project-filter ul li');
-const tabMenuListArr = ['all', 'fun', 'work', 'legacy'];
+const tabMenuListArr = ['all', 'aiml', 'webdev', 'archive'];
 const defaultSubDirectory = document.getElementById('subdirectory-url').innerHTML;
 let hashtagMenuItem = document.querySelectorAll("#project-filter-skillset ul li");
 
@@ -23,9 +23,7 @@ let hashtagMenuItem = document.querySelectorAll("#project-filter-skillset ul li"
 function filterByDropDown() {
 
     let dropSelected = dropMenuList.options[dropMenuList.selectedIndex]
-        .text
-        .replace('Projects', '')
-        .replace(' ', '')
+        .value
         .toLowerCase();
 
     // console.log(dropSelected);
