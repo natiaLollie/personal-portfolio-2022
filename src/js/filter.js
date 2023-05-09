@@ -19,6 +19,7 @@ const tabMenuListArr = ['all', 'aiml', 'webdev', 'archive'];
 const defaultSubDirectory = document.getElementById('subdirectory-url').innerHTML;
 let hashtagMenuItem = document.querySelectorAll("#project-filter-skillset ul li");
 
+// Filter AIML projects on page load
 
 function filterByDropDown() {
 
@@ -47,7 +48,7 @@ function filterByDropDown() {
 
         // console.log(dropSelected);
 
-        filterByTab(dropSelected); //artificial intelligence
+        filterByTab(dropSelected);
 
     }
 }
@@ -73,12 +74,14 @@ function filterByTab(dropSelected) {
     // FILTER PROJECTS
     projectCard.forEach(div => {
         div.style.display = 'none';
+
         // console.log(div.getAttribute('data-filter'));
-        if (div.getAttribute('data-filter') === "archive" && dropSelected === "all") {
+
+        if (div.getAttribute('data-filter') === "archive" && dropSelected.toLowerCase() != "archive") {
             div.style.display = "none";
-        } else if (div.getAttribute('data-filter') === dropSelected.toLowerCase() || dropSelected === "all"){
+        } else if (div.getAttribute('data-filter') == dropSelected.toLowerCase() || dropSelected == "all") {
             div.style.display = "block";
-        }
+        } 
     })
 
     /* THEN MATCH DROPDOWN MENU W/ TAB MENU */
@@ -92,6 +95,8 @@ function filterByTab(dropSelected) {
     updateUrl(dropSelected);
 
 }
+
+
 
 // FILTER BY SKILL FOLDERS
 document.querySelectorAll('.skills-folder').forEach(item => {
@@ -146,7 +151,7 @@ function filterByHashtagMenu(hashtagValue) {
             .toString()
             .split(" ");
 
-        if (hashtagAttArray.includes(hashtagValue)) {
+        if (hashtagAttArray.includes(hashtagValue) && div.getAttribute('data-filter') != "archive") {
             div.style.display = "block";
         }
     })
