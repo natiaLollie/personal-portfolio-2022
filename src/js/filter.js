@@ -19,7 +19,9 @@ const tabMenuListArr = ['all', 'aiml', 'webdev', 'archive'];
 const defaultSubDirectory = document.getElementById('subdirectory-url').innerHTML;
 let hashtagMenuItem = document.querySelectorAll("#project-filter-skillset ul li");
 
-// Filter AIML projects on page load
+// DEFAULT: FILTER BY CATEGORY ON PAGE LOAD
+filterByTab("all")
+
 
 function filterByDropDown() {
 
@@ -82,6 +84,7 @@ function filterByTab(dropSelected) {
         } else if (div.getAttribute('data-filter') == dropSelected.toLowerCase() || dropSelected == "all") {
             div.style.display = "block";
         } 
+
     })
 
     /* THEN MATCH DROPDOWN MENU W/ TAB MENU */
