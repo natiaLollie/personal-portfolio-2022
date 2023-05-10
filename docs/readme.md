@@ -5,15 +5,15 @@ Welcome to my portfolio! I have built this website to showcase my skills and exp
 
 # What you'll find in this document 
 
-## Overview
-## Features 
-## Demo
-## Technologies Used
-## Process Overview
-## Lessons Learned 
-## Optimizations
-## Continued Development 
-## Contact Me 
+[Overview](#overview)
+[Features](#features)
+[Demo](#demo)
+[Technologies Used](#technologies-used)
+[Process Overview](#process-overview)
+[Lessons Learned](#lessons-learned)
+[Optimizations](#optimizations)
+[Continued Development](#continued-development)
+[Contact Me](#contact-me) 
 
 <br>
 <br>
