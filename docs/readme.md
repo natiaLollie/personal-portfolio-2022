@@ -98,23 +98,23 @@ _Optimizations I made in my code: E.g. refactors, performance improvements, acce
 _Future plans, developments, features, and fixes._
 ### In Development:
 - Navigation
-	- add breadcrumb menu to post pages
-	- add scroll to top button 
-	- hamburger menu on mobile
-	- [x] smooth scroll to projects when skill is clicked 
+	- [ ] add breadcrumb menu to post pages
+	- [ ] add scroll to top button 
+	- [ ] hamburger menu on mobile
+	- [x] ~~smooth scroll to projects when skill is clicked~~ 
 ### Future Development:
 - Miscellaneous
-	- incorporate animated gif previews for project thumbnails
-	- add google analytics 
-	- integrate heat mapping
-	- optimize accessibility for users with screen readers
-	- implement HTML5 audio element 'mac 93' startup sound on load
-	- [x] add archive library tab
-	- [x] add 404 page not foundb
-		- implement mac screen of death sound
-	- add volunteer section
+	- [ ] incorporate animated gif previews for project thumbnails
+	- [ ] add google analytics 
+	- [ ] integrate heat mapping
+	- [ ] optimize accessibility for users with screen readers
+	- [ ] implement HTML5 audio element 'mac 93' startup sound on load
+	- [x] ~~add archive library tab~~
+	- [x] ~~add 404 page not found~~
+		- [ ] implement mac screen of death sound
+	- [ ] add volunteer section
 - Fixes
-	- main menu navigation clock on ie11
+	- [ ] main menu navigation clock on ie11
 
 <br>
 
