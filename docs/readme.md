@@ -1,10 +1,7 @@
 # Natia Lollie's Web Development Portfolio
 ---
-<br>
 
 Welcome to my portfolio! I have built this website to showcase my skills and expertise in artificial intelligence and web development. The idea for revamping my portfolio came to me while taking a Harvard Computer Science course that immersed students in the history of computer programming. Learning how the past has lead us to what we know as computer and web today was intensely interesting and became the main focus of my journey; I strongly believe that no matter how far we may go, a solid foundation should always be the start. My intention with this portfolio revamp is to honor that belief by merging the structures and resources the structures and assets of the past, with the elements and functionality of the present. 
-
-<br>
 
 # What you'll find in this document 
 
@@ -23,21 +20,16 @@ Welcome to my portfolio! I have built this website to showcase my skills and exp
 
 
 ## Overview 
----
 _This portfolio will:_
 <br>
-
-- Incorporate those computer and web elements reminiscent to Mac and Windows (1993 - 1996); in combination with the refinement and concepts used in web modern day.
-<br>
+- Incorporate those computer and web elements reminiscent to Mac and Windows (1993 - 1996); in combination with the refinement and concepts used in web modern day
 - Maintain a simple foundation free of tools and libraries 
-<br>
 - Reinforce the foundations of programming that I have previously learned; while simultaneously strengthening new concepts. 
 <br>
 <br>
 
 
 ## Features 
----
 _Key features integrated into this project_
 
  - Light / Dark Mode Toggle (Site Wide)
@@ -56,7 +48,6 @@ _Key features integrated into this project_
 
 
 ## Demo
----
 
 ![Alt Text](https://github.com/natiaLollie/personal-portfolio-2022/blob/main/src/_imgs/portfolio-snapshot.gif?raw=true)
 <br>
@@ -68,7 +59,6 @@ _Key features integrated into this project_
 <br>
 
 ## Technologies Used
----
 _Technologies I've worked with on this project, including programming languages, frameworks, libraries, and tools._
 - Javscript 
 - HTML / CSS  
@@ -80,7 +70,6 @@ _Technologies I've worked with on this project, including programming languages,
 <br>
 
 ## Process Overview
----
 _A general overview of my website develpoment process._
 1. Project Planning 
 2. Readme and Style Guide 
@@ -105,21 +94,18 @@ _A general overview of my website develpoment process._
 <br>
 
 ## Lessons Learned 
----
 _Things I learned while building this project, challenges I faced and how I overcame them_
 
 <br>
 <br>
 
 ## Optimizations
----
 _Optimizations I made in my code: E.g. refactors, performance improvements, accessibility, etc._
 
 <br>
 <br>
 
 ## Continued Development 
----
 _Future plans, developments, features, and fixes._
 ### In Development:
 - Navigation
@@ -146,7 +132,6 @@ _Future plans, developments, features, and fixes._
 <br>
 
 ## Contact Me 
----
 
 If you have any feedback, or would like to contact me concerning this project, please reach out to me via contact form or linkedin:
 
