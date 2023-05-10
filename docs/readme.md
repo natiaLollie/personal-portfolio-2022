@@ -5,15 +5,15 @@ Welcome to my portfolio! I have built this website to showcase my skills and exp
 
 # What you'll find in this document 
 
-[Overview](#overview)
-[Features](#features)
-[Demo](#demo)
-[Technologies Used](#technologies-used)
-[Process Overview](#process-overview)
-[Lessons Learned](#lessons-learned)
-[Optimizations](#optimizations)
-[Continued Development](#continued-development)
-[Contact Me](#contact-me) 
+* [Overview](#overview)
+* [Features](#features)
+* [Demo](#demo)
+* [Technologies Used](#technologies-used)
+* [Process Overview](#process-overview)
+* [Lessons Learned](#lessons-learned)
+* [Optimizations](#optimizations)
+* [Continued Development](#continued-development)
+* [Contact Me](#contact-me) 
 
 <br>
 
@@ -23,6 +23,8 @@ _This portfolio will:_
 - Incorporate those computer and web elements reminiscent to Mac and Windows (1993 - 1996); in combination with the refinement and concepts used in web modern day
 - Maintain a simple foundation free of tools and libraries 
 - Reinforce the foundations of programming that I have previously learned; while simultaneously strengthening new concepts. 
+
+<br>
 
 ## Features 
 _Key features integrated into this project_
@@ -37,6 +39,7 @@ _Key features integrated into this project_
 	- Skill Hashtag Menu 
 - Smooth Scrolling
 
+<br>
 
 ## Demo
 
@@ -45,6 +48,7 @@ _Key features integrated into this project_
 <br>
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://natialollie.success-way.co/)
 
+<br>
 
 ## Technologies Used
 _Technologies I've worked with on this project, including programming languages, frameworks, libraries, and tools._
@@ -97,7 +101,7 @@ _Future plans, developments, features, and fixes._
 	- add breadcrumb menu to post pages
 	- add scroll to top button 
 	- hamburger menu on mobile
-	- &#10003; ~~smooth scroll to projects when skill is clicked~~ 
+	- [x] smooth scroll to projects when skill is clicked 
 ### Future Development:
 - Miscellaneous
 	- incorporate animated gif previews for project thumbnails
@@ -105,9 +109,9 @@ _Future plans, developments, features, and fixes._
 	- integrate heat mapping
 	- optimize accessibility for users with screen readers
 	- implement HTML5 audio element 'mac 93' startup sound on load
-	- &#10003; ~~add archive library tab~~
-	- &#10003; ~~add 404 page not foundb~~
-		-	implement mac screen of death sound
+	- [x] add archive library tab
+	- [x] add 404 page not foundb
+		- implement mac screen of death sound
 	- add volunteer section
 - Fixes
 	- main menu navigation clock on ie11
