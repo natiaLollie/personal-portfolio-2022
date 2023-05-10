@@ -25,9 +25,6 @@ _This portfolio will:_
 - Incorporate those computer and web elements reminiscent to Mac and Windows (1993 - 1996); in combination with the refinement and concepts used in web modern day
 - Maintain a simple foundation free of tools and libraries 
 - Reinforce the foundations of programming that I have previously learned; while simultaneously strengthening new concepts. 
-<br>
-<br>
-
 
 ## Features 
 _Key features integrated into this project_
@@ -43,10 +40,6 @@ _Key features integrated into this project_
 - Smooth Scrolling
 
 
-<br>
-<br>
-
-
 ## Demo
 
 ![Alt Text](https://github.com/natiaLollie/personal-portfolio-2022/blob/main/src/_imgs/portfolio-snapshot.gif?raw=true)
@@ -54,9 +47,6 @@ _Key features integrated into this project_
 <br>
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://natialollie.success-way.co/)
 
-
-<br>
-<br>
 
 ## Technologies Used
 _Technologies I've worked with on this project, including programming languages, frameworks, libraries, and tools._
@@ -66,11 +56,10 @@ _Technologies I've worked with on this project, including programming languages,
 - Gulp
 - Wireframe & Protype -> Sketch, Adobe XD
 
-<br>
-<br>
 
 ## Process Overview
 _A general overview of my website develpoment process._
+<br>
 1. Project Planning 
 2. Readme and Style Guide 
 3. Design and Wireframe 
@@ -90,20 +79,13 @@ _A general overview of my website develpoment process._
 8. Testing and Code Optimization
 9. Automated Deployment Setup
 
-<br>
-<br>
-
 ## Lessons Learned 
 _Things I learned while building this project, challenges I faced and how I overcame them_
 
-<br>
-<br>
 
 ## Optimizations
 _Optimizations I made in my code: E.g. refactors, performance improvements, accessibility, etc._
 
-<br>
-<br>
 
 ## Continued Development 
 _Future plans, developments, features, and fixes._
@@ -128,12 +110,9 @@ _Future plans, developments, features, and fixes._
 - main menu navigation clock on ie11
 
 
-<br>
-<br>
-
 ## Contact Me 
 
-If you have any feedback, or would like to contact me concerning this project, please reach out to me via contact form or linkedin:
+If you have any feedback, or would like to contact me concerning this project, please reach out to me via [contact](https://natialollie.success-way.co/#contact) form or linkedin:
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/natialollie/)
 
