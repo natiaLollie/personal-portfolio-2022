@@ -48,6 +48,7 @@ _Key features integrated into this project_
 <a href="https://natialollie.success-way.co/"><img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white"></a>
 
 <br>
+<br>
 
 ## Technologies Used
 _Technologies I've worked with on this project, including programming languages, frameworks, libraries, and tools._
