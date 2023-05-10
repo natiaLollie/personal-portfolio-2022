@@ -1,21 +1,20 @@
-class Volunteer extends HTMLElement {
+class Award extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <div class="volunteer-wrapper">
-            <div class="volunteer-card">
-                <a target="_blank" href="https://www.womenwhocode.com/"><img class="card-image"
-                    src="_imgs/thumbnails/volunteer/women-who-code1.png" alt="Women Who Code"></a>
+        <div class="award-wrapper">
+        <div class="award-card">
+                <a target="_blank" href="https://girldevelopit.com/programs/hackathon-showcase/"><img class="card-image"
+                    src="_imgs/thumbnails/contribution/gdi-hackathon.png" alt="GDI Hackathon"></a>
+                     <figcaption style="font-size: 12px;text-align:center!important;">2nd Place Winner</figcaption>
             </div>
-            <div class="volunteer-card">
+        <div class="award-card">
                 <figure>
                 <a target="_blank" href="https://sic.edc.org/"> <img class="card-image" 
-                    src="_imgs/thumbnails/volunteer/samsung-ai-ml.svg" alt="Samsung Innovation Campus"> </a>
+                    src="_imgs/thumbnails/contribution/samsung-ai-ml.svg" alt="Samsung Innovation Campus"> </a>
                 <figcaption style="font-style: italic;font-size: 12px;text-align:center!important;">Innovation Campus</figcaption>
                 </figure>
-            
-                    <!-- <a target="_blank" href="https://seattlegivecamp.org/"> <img class="card-image" 
-                src="_imgs/thumbnails/volunteer/seattle-give-camp1.png" alt="Seattle Give Camp"> </a> -->
             </div>
+
         </div>
         `
     }
@@ -34,5 +33,5 @@ class Rights extends HTMLElement {
 }
 
 
-customElements.define('volunteer-icons', Volunteer);
+customElements.define('award-icons', Award);
 customElements.define('footer-rights', Rights);

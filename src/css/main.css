@@ -865,14 +865,14 @@ textarea {
     text-transform: none;
 }
 
-.volunteer-wrapper {
+.award-wrapper {
     display: flex;
     align-items: center;
     overflow-x: auto;
     height: 100%;
 }
 
-.volunteer-card {
+.award-card {
     width: 150px;
     height: auto;
     padding: 1.2rem;
@@ -880,7 +880,7 @@ textarea {
 }
 
 .card-image {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: contain;
     -webkit-filter: grayscale(100%);
