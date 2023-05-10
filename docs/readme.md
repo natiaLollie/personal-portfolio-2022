@@ -1,251 +1,158 @@
---------------------
-# Table of Contents 
---------------------
+# Natia Lollie's Web Development Portfolio
+---
+<br>
+
+Welcome to my portfolio! I have built this website to showcase my skills and expertise in artificial intelligence and web development. The idea for revamping my portfolio came to me while taking a Harvard Computer Science course that immersed students in the history of computer programming. Learning how the past has lead us to what we know as computer and web today was intensely interesting and became the main focus of my journey; I strongly believe that no matter how far we may go, a solid foundation should always be the start. My intention with this portfolio revamp is to honor that belief by merging the structures and resources the structures and assets of the past, with the elements and functionality of the present. 
+
+<br>
+
+# What you'll find in this document 
 
 ## Overview
+## Features 
+## Demo
+## Technologies Used
+## Process Overview
+## Lessons Learned 
+## Optimizations
+## Continued Development 
+## Contact Me 
 
-### Built With (Tech Stack)
-
-#### Process Overview
-
-##### Requirements 
-
-###### Layout / Structure
-
-###### Project Planning
-
-####### Notes / Resources 
-
-######## Continued Development 
+<br>
+<br>
 
 
+## Overview 
+---
+_This portfolio will:_
+<br>
 
-< >
-
-
-## Overview
---------------------
-
-
-The idea for this '2022 Portfolio Revamp' came about when taking deep interest in a Harvard Computer Science course that immersed students in the history of computer programming. Learning how the past has lead us to what we know as computer and web today was intensely interesting and became a focus on my journey. "No matter how far we may go, a solid foundation should always be the start". My intention with this portfolio revamp is to integrate the structures and assets of the past, with the elements and functionality of the present. 
-
-
-This portfolio will:
-
-
-▪ Incorporate those computer and web elements reminiscent to Mac and Windows (1993 - 1996); in combination with the refinement and concepts used in web modern day
-▪ Maintain a simple foundation free of tools and libraries 
-▪ Reinforce the foundations of programming that I have previously learned; while simultaneously strengthening new concepts. 
+- Incorporate those computer and web elements reminiscent to Mac and Windows (1993 - 1996); in combination with the refinement and concepts used in web modern day.
+<br>
+- Maintain a simple foundation free of tools and libraries 
+<br>
+- Reinforce the foundations of programming that I have previously learned; while simultaneously strengthening new concepts. 
+<br>
+<br>
 
 
+## Features 
+---
+_Key features integrated into this project_
 
-### Built With 
---------------------
-
-▪ HTML
-▪ CSS
-▪ Javascript 
-▪ Wireframe -> sketch + adobe xd 
-
-
-
-#### Process Overview
---------------------
+ - Light / Dark Mode Toggle (Site Wide)
+ - Menu Clock
+ - Paint Selection Tool
+ - Project Filter 
+	- Skill Folders
+	- Dropdown Menu
+	- Tab Menu
+	- Skill Hashtag Menu 
+- Smooth Scrolling
 
 
+<br>
+<br>
+
+
+## Demo
+---
+
+![Alt Text](https://github.com/natiaLollie/personal-portfolio-2022/blob/main/src/_imgs/portfolio-snapshot.gif?raw=true)
+<br>
+<br>
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://natialollie.success-way.co/)
+
+
+<br>
+<br>
+
+## Technologies Used
+---
+_Technologies I've worked with on this project, including programming languages, frameworks, libraries, and tools._
+- Javscript 
+- HTML / CSS  
+- Git
+- Gulp
+- Wireframe & Protype -> Sketch, Adobe XD
+
+<br>
+<br>
+
+## Process Overview
+---
+_A general overview of my website develpoment process._
 1. Project Planning 
 2. Readme and Style Guide 
 3. Design and Wireframe 
-	▪ lowfi sketch 
-	▪ hifi mockup
+	- _low fidelity sketch_ 
+	- _high fidelity mockup_
 4. Development Environment Setup
 5. Layout and Structure 
-	▪ navigation (flexbox)
-	▪ main layout (css grid)
-6. Functionality 
-	▪ menu clock 
-	▪ light/dark mode
-	▪ settings bar 
-	▪ portfolio carousel 
-7. Testing and Deployment 
-	
+	- _navigation (flexbox)_
+	- _main layout (css grid)_
+6. Styling 
+	- _css_
+7. Functionality
+	- menu clock
+	- light/dark mode
+	- settings bar
+	- project filter
+8. Testing and Code Optimization
+9. Automated Deployment Setup
+
+<br>
+<br>
+
+## Lessons Learned 
+---
+_Things I learned while building this project, challenges I faced and how I overcame them_
+
+<br>
+<br>
+
+## Optimizations
+---
+_Optimizations I made in my code: E.g. refactors, performance improvements, accessibility, etc._
+
+<br>
+<br>
+
+## Continued Development 
+---
+_Future plans, developments, features, and fixes._
+### In Development:
+- Navigation
+	- add breadcrumb menu to post pages
+	- add scroll to top button 
+	- hamburger menu on mobile
+	- &#10003; ~~smooth scroll to projects when skill is clicked~~ 
+### Future Development:
+- Miscellaneous
+	- incorporate animated gif previews for project thumbnails
+	- add google analytics 
+	- integrate heat mapping
+	- optimize accessibility for users with screen readers
+	- implement HTML5 audio element 'mac 93' startup sound on load
+	- &#10003; ~~add archive library tab~~
+	- &#10003; ~~add 404 page not foundb~~
+		-	implement mac screen of death sound
+	- add volunteer section
+### Fixes:
+- main menu navigation clock on ie11
+
+
+<br>
+<br>
+
+## Contact Me 
+---
+
+If you have any feedback, or would like to contact me concerning this project, please reach out to me via contact form or linkedin:
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/natialollie/)
 
 
-##### Requirements 
--------------------------
-
-
-° Simplest Viable Version 
-	° functional menu 
-	° smooth scrolling 
-	° responsive 
-	° dark / light mode button
-	
-
-
-
-###### Layout / Structure
--------------------------
-
-	▪ Header Menu - about, skills, projects, contact
-
-	
-	Header - About Me
-
-		° who I am 
-		      ° brief
-		      ° passion statement 
-		      ° education 
-		° my goal in the industry (e-commerce developer)
-		° my background in tech 
-
-	
-	▪ Body - Skills (quick list format)
-		
-		° programming languages:
-			Angular, Javascript, Typescript, MySql, PHP, HTML/CSS, Bootstrap
-
-		° hard skills: 
-			Git, Cascade CMS, Wordpress, Microsoft Power Automate / Flow, Formstack API and Webhooks, Cognito Forms, Vector Graphics, Wireframes
-
-		° softwares:
-			Basecamp, iModules  
-
-		° resume download link
-
-
-	▪ Body - Projects / Work (slider menu format)
-
-		° tab one - projects 
-		  projects that I have worked on and/or built from scratch
-
-			° Page Forms Project
-			° Exam Page Project
-			° Card Game Project
-			° Angular Grades App Project
-
-		° tab two - legacy project 
-		  projects that shows my ability to learn code quickly, build features quickly, and interests/passion in my goal field (e-commerce)
-
-
-			° Angular Shopping App Project 
-
-
-		° tab three - work projects 
-		  projects that I have worked on as a part of a company
-
-			° University of Houston
-			° Sourceway E-commerce 
-			° TLC Church
-			
-
-
-	▪  Footer - Contact Me
-
-		° contact form
-		° resume download 
-		° social icons 
-
-
-
-
-
-###### Project Planning
-------------------------
-
-	A. PORTFOLIO PROJECTS TO KEEP  
-
-		° Sourceway E-commerce 
-		° TLC Church
-
-
-
-	B. PORTFOLIO PROJECTS TO REMOVE 
-	
-		° iCreate Child Development 
-		° NDCM Church
-		° The Vegan Assistant 
-		° Black Excellence Magazine 
-		° Stylaholic Deigns
-		° MAD millennials
-		° Faith Real Estate Magazine  
-
-
-	C. PORTFOLIO PROJECTS TO ADD 
-
-		° University of Houston 
-		° Page Forms Project
-		° Exam Page Project
-		° Card Game Project
-		° Angular Grades App Project
-		° Angular Shopping App Project 
-			reference - https://www.youtube.com/watch?v=k5E2AVpwsko&t=4131s
-
-
-
-
-####### Notes / Resources 
---------------------------
-
-
-• Test main menu clock on ie11 
-		• padstart method does not work on ie11
-
-
-
-
-
-######## Continued Development 
---------------------------------
-
-
-FUTURE FEATURES / UPDATES & WISHLIST
-
-	- Navigation -
-
-	° breadcrumb menu inner pages
-	° scroll to top button 
-	° add animated scroll wheel 
-
-
-
-	- Functionality - 
-
-	° update project section, projects snapshots are gifs
-
-	° when skill folder clicked, jump to projects section and input filter to show projects that use that skill
-
-	° remove css smooth scroll and implement javacsript smooth scroll (2000s)
-
-
-
-	- Logistics - 
-
-	• install google analytics
-	• heat mapping 
-	° make screen reader friendly
-
-
-
-	- FUN - 
-	° mac 93' startup sound on load 
-
-
-
-	- OTHER - 
-
-	° archive library 
-		for practice projects and short builds as a personal reference  
-
-	° 404 not found page -> mac screen of death
-
-	° add references section
-
-
-
-	- FILE CLEANUP - 
-
-	° when php added, update svg icons to one file 
 
 
  
