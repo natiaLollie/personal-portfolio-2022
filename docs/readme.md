@@ -16,8 +16,6 @@ Welcome to my portfolio! I have built this website to showcase my skills and exp
 [Contact Me](#contact-me) 
 
 <br>
-<br>
-
 
 ## Overview 
 _This portfolio will:_
@@ -56,6 +54,7 @@ _Technologies I've worked with on this project, including programming languages,
 - Gulp
 - Wireframe & Protype -> Sketch, Adobe XD
 
+<br>
 
 ## Process Overview
 _A general overview of my website develpoment process._
@@ -79,13 +78,17 @@ _A general overview of my website develpoment process._
 8. Testing and Code Optimization
 9. Automated Deployment Setup
 
+<br>
+
 ## Lessons Learned 
 _Things I learned while building this project, challenges I faced and how I overcame them_
 
+<br>
 
 ## Optimizations
 _Optimizations I made in my code: E.g. refactors, performance improvements, accessibility, etc._
 
+<br>
 
 ## Continued Development 
 _Future plans, developments, features, and fixes._
@@ -106,9 +109,10 @@ _Future plans, developments, features, and fixes._
 	- &#10003; ~~add 404 page not foundb~~
 		-	implement mac screen of death sound
 	- add volunteer section
-### Fixes:
-- main menu navigation clock on ie11
+- Fixes
+	- main menu navigation clock on ie11
 
+<br>
 
 ## Contact Me 
 
