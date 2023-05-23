@@ -1,7 +1,7 @@
 # Natia Lollie's Web Development Portfolio
 ---
 
-Welcome to my portfolio! I have built this website to showcase my skills and expertise in artificial intelligence and web development. The idea for revamping my portfolio came to me while taking a Harvard Computer Science course that immersed students in the history of computer programming. Learning how the past has lead us to what we know as computer and web today was intensely interesting and became the main focus of my journey; I strongly believe that no matter how far we may go, a solid foundation should always be the start. My intention with this portfolio revamp is to honor that belief by merging the structures and resources the structures and assets of the past, with the elements and functionality of the present. 
+An ode to the classic Mac OS… with a few modern touches! The inspiration for this portfolio came to me while taking Harvard’s CS50 Computer Science course, which immersed students in the history and foundation of computer programming. Exploring how the past has led us to what we know as computing and the web today was intensely interesting and became the main focus of my journey; I strongly believe that no matter how far we may go, a solid foundation should always be the start. With the revamp of this portfolio, my intention is to honor that belief by merging the structures and assets of the past, with the elements and functionality of the present, serve as a reminder to consistently revisit the basics no matter how far along I go, and facilitate an engaging learning experience for my students by creating a fork-able portfolio that is simple, readable, and easily modifiable.
 
 # What you'll find in this document 
 
