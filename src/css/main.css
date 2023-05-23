@@ -425,7 +425,7 @@ nav {
     font-size: 16px;
     margin-top: 3em;
     line-height: 2em;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .preview-container {
@@ -460,6 +460,61 @@ nav {
 
 .preview-container:hover .preview-popup {
     display: block;
+}
+
+.slideshow {
+    position: fixed;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slideshow img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slideshow img.active {
+    opacity: 1;
+}
+
+/* Slideshow animation */
+@keyframes slideAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.slideshow img {
+    animation: slideAnimation 3s infinite;
+}
+
+.slideshow img:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.slideshow img:nth-child(3) {
+    animation-delay: 2s;
 }
 
 /* SKILLS */
