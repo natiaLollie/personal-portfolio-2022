@@ -428,6 +428,40 @@ nav {
     letter-spacing: 1.5px;
 }
 
+.preview-container {
+    position: relative;
+}
+
+.preview-text {
+    position: relative;
+    cursor: pointer;
+}
+
+.preview-popup {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    bottom: calc(100% + 5px);
+    width: 300px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 999;
+}
+
+.preview-popup img {
+    max-width: 100%;
+    display: block;
+}
+
+.preview-container:hover .preview-popup {
+    display: block;
+}
+
 /* SKILLS */
 
 .skills-wrapper {
