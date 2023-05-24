@@ -4,14 +4,14 @@ class Award extends HTMLElement {
         <div class="award-wrapper">
         <div class="award-card">
                 <a target="_blank" href="https://girldevelopit.com/programs/hackathon-showcase/"><img class="card-image"
-                    src="_imgs/thumbnails/contribution/gdi-hackathon.png" alt="GDI Hackathon"></a>
-                     <figcaption style="font-size: 12px;text-align:center!important;">2nd Place Winner</figcaption>
+                    src="_imgs/thumbnails/contribution/gdi-hackathon.png" alt="GDI Hackathon 2nd Place Winner"></a>
+                     <figcaption style="font-size: 12px;text-align:center!important;">GDI: 2nd Place Winner</figcaption>
             </div>
         <div class="award-card">
                 <figure>
-                <a target="_blank" href="https://sic.edc.org/"> <img class="card-image" 
-                    src="_imgs/thumbnails/contribution/samsung-ai-ml.svg" alt="Samsung Innovation Campus"> </a>
-                <figcaption style="font-style: italic;font-size: 12px;text-align:center!important;">Innovation Campus</figcaption>
+                <a target="_blank" href="https://news.samsung.com/us/samsung-innovation-campus-learner-spotlight-natia-lollie/?utm_source=linkedin&utm_medium=usnews&utm_campaign=general"> <img class="card-image" 
+                    src="_imgs/thumbnails/contribution/samsung-badge.png" alt="Samsung Innovation Campus Featured Student"></a>
+                <figcaption style="font-size: 12px;text-align:center!important;">Samsung: Featured Student</figcaption>
                 </figure>
             </div>
 

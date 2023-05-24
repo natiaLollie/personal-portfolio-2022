@@ -958,6 +958,7 @@ textarea {
     display: flex;
     align-items: center;
     overflow-x: auto;
+    overflow-y: clip;
     height: 100%;
 }
 
