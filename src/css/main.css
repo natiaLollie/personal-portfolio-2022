@@ -1030,7 +1030,7 @@ li {
 }
 
 #post div#project-title-post {
-    height: 200px;
+    margin: 80px auto;
 }
 
 #post div#project-title-post h1 {
