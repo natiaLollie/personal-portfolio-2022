@@ -1113,6 +1113,25 @@ div.showcase-images-container a img {
     filter: invert(100%);
 }
 
+.achievement-post-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+    width: 100%;
+}
+
+.achievement-post-wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.achievement-post-wrapper img {
+    max-height: 250px;
+    width: auto;
+}
+
 #post .footer {
     margin-top: 8em;
 }
@@ -1517,6 +1536,16 @@ div.showcase-images-container a img {
 
     .project-card div {
         width: 90%;
+    }
+
+    .achievement-post-wrapper {
+        flex-direction: column;
+    }
+
+    .achievement-post-wrapper img{
+        height: 100%;
+        width: 40%;
+        margin: 10px auto;
     }
 
     .contact-container {
