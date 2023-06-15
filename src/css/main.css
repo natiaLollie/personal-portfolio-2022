@@ -1098,6 +1098,11 @@ div.showcase-images-container a img {
     border: 2px black solid;
 }
 
+#showcase-post .showcase-post-wrapper.uh div{
+    display: flex;
+    margin-right: 30px;
+}
+
 #achievement-post ul {
     line-height: 3;
     list-style: circle;
