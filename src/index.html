@@ -704,8 +704,7 @@
 
                 <hr>
 
-                <form id="contact-form" class="contact-wrapper" method="POST"
-                    onsubmit="showSubmissionMessage(); return false;">
+                <form id="contact-form" class="contact-wrapper" onsubmit="return false;">
 
                     <div class="name">
                         <div style="margin-right: 20px;">
@@ -720,7 +719,7 @@
                     </div>
 
                     <label>Subject:</label>
-                    <input class="input-field" type="text" name="subject">
+                    <input class="input-field" type="text" name="subject" required>
 
                     <label>Email:</label>
                     <input class="input-field" type="text" name="email" required>

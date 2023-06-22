@@ -116,7 +116,29 @@ document.querySelectorAll('.input-field').forEach(input => {
     })
 })
 
-function showSubmissionMessage(){
+formBtn.addEventListener('click', function () {
+    let formData = new FormData(document.getElementById('contact-form'));
+
+    fetch('https://formspree.io/f/mnqyekyv', {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json'
+        },
+        body: formData
+    })
+        .then(response => response.json())
+        .then(data => {
+            // Handle success, if needed
+            showSubmissionMessage();
+        })
+        .catch(error => {
+            // Handle error, if needed
+            console.error(error);
+        });
+});
+
+function showSubmissionMessage(event){
+    
     console.log('the email has been sent');
 
     // hide resume link
@@ -132,6 +154,8 @@ function showSubmissionMessage(){
     }, 5000);
 
 }
+
+
 
 // SETTINGS MENU
 
