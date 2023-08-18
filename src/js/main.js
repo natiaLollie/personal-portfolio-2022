@@ -1,3 +1,31 @@
+// MOBILE MENU
+const mobileMenu = document.querySelector('.mobile-menu');
+const navMenu = document.querySelector('.nav-menu');
+const navBar = document.querySelector('.navbar');
+
+mobileMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+    navMenu.classList.toggle('active');
+    menuBorderToggle();
+})
+
+document.querySelectorAll('.nav-item').forEach(e => e.addEventListener('click', () => {
+    mobileMenu.classList.remove('active');
+    navMenu.classList.remove('active');
+    menuBorderToggle();
+}))
+
+function menuBorderToggle(){
+
+    if (navMenu.classList.contains('active')){
+        console.log('class is active')
+        navBar.style.borderBottom = "none";
+    } else {
+        console.log('class is not active')
+        navBar.style.removeProperty('border-bottom');
+    }
+}
+
 // MAIN MENU CLOCK
 
 function autoDateTimeUpdate() {
@@ -66,13 +94,13 @@ document.querySelectorAll('.tool').forEach(item => {
     })
 })
 
-document.getElementById('exit').addEventListener('click', function(){
+document.getElementById('exit').addEventListener('click', function () {
     // console.log('exit greeting popup');
     document.getElementById('greeting-popup').classList.toggle('hidden');
     document.getElementById('prompt').classList.toggle('hidden');
 })
 
-document.getElementById('prompt').addEventListener('click', function(){
+document.getElementById('prompt').addEventListener('click', function () {
     // console.log('show greeting popup')
     document.getElementById('prompt').classList.toggle('hidden');
     document.getElementById('greeting-popup').classList.toggle('hidden');
@@ -85,7 +113,7 @@ let seeAllTags = document.querySelectorAll('.see-all');
 let tagsHidden = document.querySelectorAll('.tags-hidden');
 
 for (let i = 0; i < seeAllTags.length; i++) {
-    seeAllTags[i].addEventListener('click', function(){
+    seeAllTags[i].addEventListener('click', function () {
         // console.log('see all tags in project button clicked');
         tagsHidden[i].classList.toggle('tags-hidden');
     })
@@ -98,7 +126,7 @@ let formBtn = document.getElementById('submit-btn');
 formBtn.disabled = true;
 
 document.querySelectorAll('.input-field').forEach(input => {
-    input.addEventListener('input', function(e){
+    input.addEventListener('input', function (e) {
 
         let nameRequired = document.querySelectorAll('.input-field')[0].value;
         let emailRequired = document.querySelectorAll('.input-field')[3].value;
@@ -137,8 +165,8 @@ formBtn.addEventListener('click', function () {
         });
 });
 
-function showSubmissionMessage(event){
-    
+function showSubmissionMessage(event) {
+
     console.log('the email has been sent');
 
     // hide resume link
@@ -146,7 +174,7 @@ function showSubmissionMessage(event){
     // show submission message
     document.getElementById('submission-message').classList.remove('hidden');
     // reset form 
-    document.getElementById("contact-form").reset();    
+    document.getElementById("contact-form").reset();
 
     setTimeout(function () {
         document.getElementById('submission-message').className = 'hidden';

@@ -137,6 +137,24 @@ nav {
     justify-content: space-between;
 }
 
+/* mobile menu navigation */
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+/* end mobile menu */
+
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1104,7 +1122,7 @@ div.showcase-images-container a img {
     border: 2px black solid;
 }
 
-#showcase-post .showcase-post-wrapper.uh div{
+#showcase-post .showcase-post-wrapper.uh div {
     display: flex;
     margin-right: 30px;
 }
@@ -1382,6 +1400,45 @@ div.showcase-images-container a img {
         text-align: center;
     }
 
+    .mobile-menu {
+        display: block;
+    }
+
+    .navbar {
+        height: 51px;
+        width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        padding: 35px;
+    }
+
+    .nav-menu {
+        height: 500px;
+        position: absolute;
+        left: -100%;
+        top: 82px;
+        text-align: center;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        background-color: var(--menuColor);
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .mobile-menu.active {
+        background-color: var(--menuColor);
+    }
+
     .greeting-toolbox {
         display: none;
     }
@@ -1454,7 +1511,7 @@ div.showcase-images-container a img {
 
     .active {
         border-bottom: 0 !important;
-        background-color: #C5CFC2 !important;
+        background-color: #C5CFC2;
         padding-bottom: 6px !important;
         width: auto;
     }
@@ -1542,7 +1599,7 @@ div.showcase-images-container a img {
     }
 
     #icon {
-        display:none;
+        display: none;
     }
 
     .project-card div {
@@ -1553,7 +1610,7 @@ div.showcase-images-container a img {
         flex-direction: column;
     }
 
-    .achievement-post-wrapper img{
+    .achievement-post-wrapper img {
         height: 100%;
         width: 40%;
         margin: 10px auto;
