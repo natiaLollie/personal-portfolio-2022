@@ -1417,6 +1417,10 @@ div.showcase-images-container a img {
         padding: 35px;
     }
 
+    .navbar .flex {
+        flex-direction: row-reverse;
+    }
+
     .nav-menu {
         height: 500px;
         position: absolute;
