@@ -1422,7 +1422,7 @@ div.showcase-images-container a img {
     }
 
     .nav-menu {
-        height: 500px;
+        height: 90%;
         position: absolute;
         left: -100%;
         top: 82px;
