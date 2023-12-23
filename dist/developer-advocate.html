@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="post-page">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-114GME49VY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-114GME49VY');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Advocate</title>
+    <link rel="icon" type="image/x-icon" href="_imgs/favicon.svg" alt="laptop icon iconking1">
+    <link id="theme-container" class="theme" rel="stylesheet" href="css/light.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500&family=Montserrat:wght@400;500&family=Open+Sans:wght@400;500&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="post">
+    <!-- NavBar -->
+
+    <div class="navbar navbar-post">
+
+        <div class="main-container flex">
+            <div></div>
+            <nav>
+                <ul>
+                    <li><a class="nav-item" href="#project-post">Mission</a></li>
+                    <li><a class="nav-item" href="#technologies-post">Challenge</a></li>
+                    <li><a id="logo" class="nav-item" href=".">Natia Lollie</a></li>
+                    <li><a class="nav-item" href="#showcase-post">Showcase</a></li>
+                    <li><a class="nav-item" href="#code-post">Inspiring Others</a></li>
+                </ul>
+            </nav>
+            <div id="theme-icon" class="flex" onclick="siteTheme();">
+                <img id="icon" src="_imgs/icons/light_mode.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="theme-message" class="hidden">
+        <span>The Settings have been Saved For Your Next Visit!</span>
+    </div>
+
+
+    <div id="project-title-post">
+        <h1>Developer Advocate</h1>
+        <br>
+        <p>From Code to Community</p>
+    </div>
+
+    <section id="project-post">
+        <div class="main-container">
+            <h1>Mission</h1>
+            <div class="project-post-wrapper" style="margin-top: 20px;">
+                <p>
+                    A passion for helping others. Our project aims to promote inclusivity in the beauty industry through the use of deep learning
+                    algorithms to create
+                    more representative and realistic beauty filters. We developed a deep-learning-based process that
+                    can be used to
+                    create inclusive
+                    filters that accurately represent diverse features and skin tones. We utilized a diverse dataset of
+                    50 faces, each
+                    composed of 10 individuals from the five races identified by the government department of the
+                    National Center for
+                    Education Statistics (NCES), in conjunction with Generative Adversarial Networks (GANs). By training
+                    deep-learning
+                    algorithms on a diverse set of skin tones, we demonstrated that it is possible to facilitate the
+                    development of filters
+                    that accurately detect and incorporate a variety of skin tones. Our approach is designed to be
+                    accessible and easy to
+                    use, allowing anyone to create filters that represent a range of skin tones and features. By
+                    providing this tool, we
+                    hope to encourage the creation of more inclusive beauty filters that accurately reflect the
+                    diversity of our society and
+                    challenge the Western beauty standard.
+                </p>
+                <br>
+                <img src="_imgs/projects/samsung/showcase/workflow.png" alt="Process and Workflow">
+                <br>
+                <p style="font-style: italic">Contributors: Lanzhen Wang, Natia Lollie, Leta Ames, Nabila Mohamed,
+                    Ashley Lewis</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies-post">
+        <div class="main-container">
+            <h1>Technologies</h1>
+            <div class="technologies-post-wrapper">
+                <div>
+                    <!-- technologies -->
+                    <ul>
+                        <!-- python - programming language -->
+                        <span class="preview-container">
+                            <span class="preview-text">
+                                <li>Python</li>
+                            </span>
+                            <span class="preview-popup">programming language</span>
+                        </span>
+                        <!--  fiftyone - data acquisition -->
+                        <span class="preview-container">
+                            <span class="preview-text">
+                                <li>FiftyOne</li>
+                            </span>
+                            <span class="preview-popup">data acquisition</span>
+                        </span>
+                        <!--  Google Colab - exploratory data analysis (EDA) -->
+                        <span class="preview-container">
+                            <span class="preview-text">
+                                <li>Google Colab</li>
+                            </span>
+                            <span class="preview-popup">exploratory data analysis (EDA)</span>
+                        </span>
+                        <!--  Keras - framwork for deep learning models -->
+                        <span class="preview-container">
+                            <span class="preview-text">
+                                <li>Keras, TensorFlow</li>
+                            </span>
+                            <span class="preview-popup">framwork for deep learning models</span>
+                        </span>
+                        <!--  cycleGAN - deep learning model architecture -->
+                        <span class="preview-container">
+                            <span class="preview-text">
+                                <li>cycleGAN</li>
+                            </span>
+                            <span class="preview-popup">deep learning model architecture</span>
+                        </span>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase-post">
+        <div class="main-container">
+            <h1>Showcase</h1>
+
+            <div style="margin: 2.5em auto;" class="showcase-post-wrapper">
+                <p>
+                    We used cycleGANs (Cycle-Consistent Generative Adversarial Network) and a diverse dataset of 50
+                    faces that featured a wide range of skin tones to develop a
+                    process for creating filters that seamlessly enhances the user’s appearance in real time without
+                    diminishing performance across skin tones.
+                </p>
+                <div class="showcase-links">
+                    <ul>
+                        <li><a target="_blank"
+                                href="https://colab.research.google.com/drive/1YZCj9FwpLMj2KzW2crvv7KhaE2MLGNYZ?usp=sharing">View
+                                Source Code</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- project images -->
+
+            <div class="showcase-cards">
+                <div class="showcase-images-container"> <!-- video -->
+                    <p>Capstone Video:</p>
+                    <a target="_blank"
+                        href="https://drive.google.com/file/d/1RvViQUrNBIoFqL_qlUDqgW4RCAtsBC6w/view?usp=sharing"><img
+                            src="_imgs/projects/samsung/showcase/video-preview-card.png"
+                            alt="Samsung Video Presentation"></a>
+                </div>
+                <div class="showcase-images-container"> <!-- colab -->
+                    <p>Google Colab Code:</p>
+                    <a target="_blank"
+                        href="https://colab.research.google.com/drive/1YZCj9FwpLMj2KzW2crvv7KhaE2MLGNYZ?usp=sharing"><img
+                            src="_imgs/projects/samsung/showcase/code-preview-card.png" alt="Samsung Code Preview"></a>
+                </div>
+            </div>
+
+            <div class="showcase-cards">
+                <div class="showcase-images-container"> <!-- final report-->
+                    <p>Capstone Report:</p>
+                    <a target="_blank"
+                        href="https://drive.google.com/file/d/1zPjI_NDTcwy4XuGLIYSKAvw-pW3ohli6/view?usp=drive_link"><img
+                            src="_imgs/projects/samsung/showcase/report-preview-card.png" alt=""></a>
+                </div>
+                <div class="showcase-images-container"> <!-- powerpoint -->
+                    <p>Capstone Powerpoint:</p>
+                    <a target="_blank"
+                        href="https://drive.google.com/file/d/1SLDjJeIt0D8_uEXOvSfePeHx2LGWifZj/view?usp=drive_link"><img
+                            src="_imgs/projects/samsung/showcase/powerpoint-preview-card.png"
+                            alt="Samsung Powerpoint Presentation"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="code-post">
+        <div class="main-container">
+            <h1>Optimization</h1>
+            <div class="showcase-post-wrapper">
+                <p>
+                    Moving forward our aim is to focus on improving the
+                    training dataset. One way to achieve this is to increase the size of the dataset to include more
+                    diverse images. This
+                    would provide our model with more information to train and help us include images of people with
+                    further variation in
+                    age, weight, facial features, etc. It would be best to expand the dataset to include images of
+                    people who are not public
+                    figures. We also need to include images of people from different angles to prepare the model better
+                    for real-world
+                    applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="lessons-post">
+        <div class="main-container">
+            <h1>Lessons Learned</h1>
+            <div class="showcase-post-wrapper">
+                <p>
+                    Our team was able to observe the success of our model in generating images with makeup from images
+                    without makeup,
+                    despite the unpaired nature of our data. This was aided by utilizing images of the same individuals
+                    with and without
+                    makeup, which allowed the model to make subtle changes to their appearance. Our generated images
+                    showed an increased
+                    smoothness in the skin, but did not consistently alter skin tone.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievement-post">
+        <div class="main-container">
+            <h1>Achievements</h1>
+            <div class="showcase-post-wrapper">
+                <p>
+                    Individual recognition and achievement recieved on Samsung's global and USA newsrooms for my work
+                    within their A.I. and M.L. campus.
+                </p>
+                <ul style="font-style: italic; margin-top: 20px;">
+                    <li><a target="_blank" href="https://bit.ly/Samsung-Linkedin-Post">Linkedin</a></li>
+                    <li><a target="_blank" href="https://bit.ly/SamsungNatiaLollie">USA Website</a></li>
+                    <li><a target="_blank" href="https://news.samsung.com/global/around-the-world#[U.S.]">Global
+                            Website</a></li>
+                </ul>
+            </div>
+            <p style="margin-bottom:30px;text-align:center;">View on Social Media</p>
+            <div class="achievement-post-wrapper">
+                <a target="_blank" href="https://bit.ly/Samsung-Linkedin-Post"><img
+                        src="_imgs/projects/samsung/achievement/linkedin.png" alt="Linkedin Preview"></a>
+                <a target="_blank" href="https://bit.ly/SamsungNatiaLollie"><img
+                        src="_imgs/projects/samsung/achievement/usa-website.png" alt="USA Website Preview"></a>
+                <a target="_blank" href="https://news.samsung.com/global/around-the-world#[U.S.]"><img
+                        src="_imgs/projects/samsung/achievement/global-website.png" alt="Global Website Preview"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <!-- contibutions -->
+
+        <award-icons></award-icons>
+
+        <div class="main-container flex">
+            <div>
+                <ul>
+                    <li><a class="nav-item" href="#project">Project</a></li>
+                    <li><a class="nav-item" href="#technologies">Technologies</a></li>
+                    <li><a id="logo" class="nav-item" href=".">Portfolio</a></li>
+                    <li><a class="nav-item" href="#showcase">Showcase</a></li>
+                    <li><a class="nav-item" href="#code">Code</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer-rights></footer-rights>
+
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/component.js"></script>
+</body>
+
+</html>
