@@ -825,6 +825,12 @@ nav {
     }
 }
 
+.learn a::after {
+    content: '→';
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+}
+
 .project-card-about {
     margin: 20px auto 30px auto;
 }
