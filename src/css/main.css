@@ -1186,7 +1186,8 @@ div.showcase-images-container a img {
 }
 
 /* DEVELOPER ADVOCACY POST PAGE */
-.dev-Ad #technologies-post, #showcase-post {
+.dev-Ad #technologies-post,
+.dev-Ad #showcase-post {
     display: none;
 }
 
